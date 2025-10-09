@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="estilos_y_videos/descarga.jpg">
+    <link rel="stylesheet" href="estilos_y_videos/style.css">
+    <title>Pagina Principal</title>
+</head>
+
+<body>
+    <!--
+    https://alvaroelcur1oso-droid.github.io/Alvaro_curiosito/
+    link de la pagina web-->
+    <script>
+        azar = parseInt(Math.random() * 10) + 1
+        alert(`🙃🙃🙃🙃🙃 ¡Adivina el número del juego! ( ͡° ͜ʖ ͡°)
+              Empezamos: es del 1 al 10
+               Tienes tres intentos 😎
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        no es el numero ( ͡° ͜ʖ ͡°) ( ͡° ͜ʖ ͡°) ( ͡° ͜ʖ ͡°)
+        ${azar}`)
+        for (let i = 0; i < 3; i++) {
+            num = prompt("un numero por favor")
+            if (num == azar) {
+                alert("GANASTES ;)\n Toma tu copa virtual\n  🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 ")
+                break;
+            }
+        }
+        if (num != azar) {
+            alert("no Atinastes :(")
+        }
+        function hola() {
+            var nombre =document.getElementById('nom')             
+            alert(`ya te robe tus datos jejejeje
+tu nombre es: ${nombre}
+            `)
+        }
+    </script>
+    <header>
+        <center>
+            <h1>visita nuestra pagina por estos diferentes link</h1>
+            <img src="estilos_y_videos/descarga.jpg" alt="imagen PseInt" title="Pseint">
+            <img src="estilos_y_videos/Mascota.gif" alt="imagen de la mascota" title="Mascota de Pseint">
+        </center>
+
+    </header>
+    <main>
+        <section>
+
+            <div class="box">
+                <ol type="A">
+                    <h2>Aprende PseInt desde 0</h2>
+                    <li><a href="index1.html" rel="noopener noreferrer" target="_blank"
+                            title="Aprende PseInt desde 0">Aprende PseInt desde 0</a></li>
+                    <h2>descarga la pagina que ves ahora mismo</h2>
+                    <li><a href="https://www.youtube.com/watch?v=IkDWE-yHxuI" title="Descargar">Descargar</a></li>
+                </ol>
+            </div>
+        </section>
+        <section>
+          
+            <h2>Una Musica infinita pero esta muteado :)</h2>
+                <audio src="estilos_y_videos/musica.mp3" autoplay muted controls loop></audio>
+                <h2>pequeño formulario</h2>
+                <form>
+                    <fieldset>
+                        <legend>Formulario</legend>
+                        <label for="nom">Nombre</label>
+                        <label for="email">Correo</label>
+                        <label for="contra">Contraseña</label>
+                        <input id="nom" type="text" required placeholder="Nombre">
+                        <input id="email" type="email" required placeholder="persona154@gmail.com">
+                        <input id="contra" type="password" required placeholder="Contraseña">
+                        <input type="submit" onclick="hola()">
+                    </fieldset>
+                </form>
+        </section>
+  <div class="gradiente">
+        <section>
+            <h2>pdf de html del Prof.lerzundi</h2>
+            <iframe src="estilos_y_videos/HTML_guia_rapida_de_referencia.pdf" title="libro de html">
+
+            </iframe>
+        </section>
+    </main>
+</div>
+</body>
+
+</html>
